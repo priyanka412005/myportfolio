@@ -40,7 +40,7 @@ A modern, dark-themed personal portfolio website built with React, showcasing th
 1. **Inventory Management System** - Python, Tkinter, SQLite
 2. **Appointment Booking System** - React.js, Tailwind CSS, Firebase
 3. **Smart Price Comparison Tool** - React.js, FastAPI, MongoDB
-4. **Automated Log Monitoring System** - Python, Bash
+
 
 ## 🏆 Achievements Highlighted
 
