@@ -1,0 +1,10 @@
+{
+  "short_name": "Priyanka",
+  "name": "Priyanka Pathak Portfolio",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#0a0a0a",
+  "description": "Modern portfolio of Priyanka Pathak - Computer Science student & aspiring developer.",
+  "icons": []
+}

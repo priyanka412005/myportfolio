@@ -1,0 +1,118 @@
+.footer {
+  background: rgba(10, 10, 10, 0.98);
+  border-top: 1px solid var(--border-color);
+  position: relative;
+  z-index: 1;
+}
+
+.footer-inner {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  gap: 2rem;
+  padding: 60px 20px;
+}
+
+.footer-brand .brand-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 0.5rem;
+}
+
+.brand-tagline {
+  color: var(--text-secondary);
+  line-height: 1.6;
+}
+
+.footer-socials {
+  display: flex;
+  gap: 1.25rem; /* increased spacing */
+  margin-top: 1.25rem;
+  flex-wrap: wrap; /* allow wrap on small widths */
+}
+
+.footer-social {
+  width: 48px;  /* larger touch target */
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  background: var(--secondary-bg);
+  border: 1px solid var(--border-color);
+  color: var(--text-secondary);
+}
+
+.footer-social:hover {
+  color: var(--accent-purple);
+  border-color: var(--accent-purple);
+  box-shadow: var(--shadow-glow);
+}
+
+.footer-social svg {
+  font-size: 1.2rem;
+}
+
+.footer-links h4,
+.footer-cta h4 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 0.75rem;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 0.6rem;
+}
+
+.footer-link {
+  color: var(--text-secondary);
+  background: transparent;
+  border: none;
+  padding: 0;
+  text-align: left;
+  cursor: pointer;
+  font-size: 0.95rem;
+}
+
+.footer-link:hover {
+  color: var(--accent-purple);
+}
+
+.footer-cta .cta-text {
+  color: var(--text-secondary);
+  margin-bottom: 0.9rem;
+}
+
+.footer-bottom {
+  border-top: 1px solid var(--border-color);
+  padding: 16px 20px;
+  text-align: center;
+  color: var(--text-muted);
+}
+
+.footer-bottom .heart {
+  color: var(--accent-purple);
+  vertical-align: middle;
+}
+
+@media (max-width: 1024px) {
+  .footer-inner {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-inner {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    padding: 40px 16px;
+  }
+  .footer-socials {
+    gap: 1rem; /* comfortable spacing on mobile */
+  }
+}
